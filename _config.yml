@@ -8,8 +8,8 @@ title: Tekblog
 email: 
 description: >-
   Snippets from the world of IT & Software Engineering
-baseurl: "/jms/tekblog/pages" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/jstover-dev/tekblog"
+url: https://jstover-dev.github.io
 twitter_username: 
 github_username:  
 
