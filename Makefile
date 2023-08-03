@@ -15,3 +15,6 @@ list-tags:
 deploy: build
 	(cd _site && git add -A && git commit -m "$(LAST_COMMIT_MSG)" && git push)
 
+serve:
+	bundle exec jekyll serve
+
