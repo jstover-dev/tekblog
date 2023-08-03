@@ -14,9 +14,9 @@ layout: default
         <span itemprop="author" itemscope itemtype="http://schema.org/Person">👤 <span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}
       {% if page.tags %}
-        <span itemprop="tags" class="meta-tags">🏷
+        <span itemprop="tags" class="meta-tags">🏷&nbsp;
           {%- for tag in page.tags -%}
-            <span itemprop="tag"><a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a></span>{% if forloop.last != true %},{% endif %}
+            <span itemprop="tag"><a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a></span>{% if forloop.last != true %}, {% endif %}
           {%- endfor -%}
         </span>
       {% endif %}
