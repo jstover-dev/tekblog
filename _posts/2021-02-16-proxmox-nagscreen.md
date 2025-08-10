@@ -5,7 +5,7 @@ tags: [virtual-machines, proxmox, sysadmin]
 
 Trying to run a homelab on the cheap, and keep getting reminded of your cheapness?
 
-![Proxmox nag screen](/assets/img/proxmox-nagscreen.png){: width="500px"}
+![Proxmox nag screen]({{ '/assets/img/proxmox-nagscreen.png' | relative_url }}){: width="500px"}
 
 
 Disable checked commands:
