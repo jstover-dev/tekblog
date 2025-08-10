@@ -23,6 +23,6 @@ if grep -q "$PATCH_COMMENT" "$PROXMOXLIB_JS"; then
 fi
 
 set -x
-sed -i 's,\(checked_command: function(\([^,]*\).*) {\),\1\n\t\2(); return; '"$PATCH_COMMENT," "$PROXMOXLIB_JS"
+sed -i 's,\(checked_command: function\s*(\([^),]*\)[),].*\),\1\2();  return; '"$PATCH_COMMENT," "$PROXMOXLIB_JS"
 ```
 
